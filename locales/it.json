@@ -5,5 +5,22 @@
     "genres": "Generi",
     "creations": "Creazioni",
     "makers": "Makers"
+  },
+  "page": {
+    "homepage": {
+      "firstSection": {
+        "elements": {
+          "first": {
+            "title": "Hallo!",
+            "content": "Ich bin Marialuise – gerne auch einfach Marylu! Ich liebe das Kochen, das Backen und alles, was mit gutem Essen zu tun hat. Ich koche gern für die Familie, Freunde – und wenn Sie möchten, auch für Ihren Anlass\n"
+          },
+          "second": {
+            "title": "CUOCO A DOMICILIO",
+            "subtitle": "FRISCH GEKOCHT DIREKT BEI IHNEN",
+            "content": "„Cuoco a domicilio“ ist in Italien der Begriff für den Kochservice, der direkt vor Ort bei Ihnen zu Hause, im Unternehmen oder an der von Ihnen gewünschten Location erfolgt. Nach dem Lokalaugenschein, der Vereinbarung über Speisen und Budget besorge ich alles Notwendige – von den Zutaten bis zu eventuell fehlender Ausstattung und auf Wunsch auch Getränke und Wein. Je nach Größe des Events bringe ich Helfer mit und am Ende wird wieder saubergemacht. Für eine rundum gelungene Feier und sorglose, glückliche Gastgeber!"
+          }
+        }
+      }
+    }
   }
 }

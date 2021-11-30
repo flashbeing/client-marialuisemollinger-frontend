@@ -2,6 +2,7 @@
 <div class="main-container" :class="{'is-reverse': reverseBackground}">
   <div class="text-box" :class="{'has-background': hasBackground}">
     <div class="text">
+      <h3 v-if="subtitle" class="font-black">{{subtitle}}</h3>
       <slot />
     </div>
   </div>
@@ -28,6 +29,10 @@ export default {
     reverseBackground: {
       type: Boolean,
       default: false
+    },
+    subtitle: {
+      type: String,
+      default: ''
     }
   },
   computed: {
