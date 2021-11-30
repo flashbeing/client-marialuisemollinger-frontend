@@ -1,9 +1,8 @@
 <template>
-<div class="main-container">
-  <div class="text-box " :class="{'has-background': hasBackground}">
-    <div class="text" :class="{'has-background': hasBackground}">
-      <h2 :class="{'has-background': hasBackground}">{{title}}</h2>
-      <p>{{text}}</p>
+<div class="main-container" :class="{'is-reverse': reverseBackground}">
+  <div class="text-box" :class="{'has-background': hasBackground}">
+    <div class="text">
+      <slot />
     </div>
   </div>
   <div class="image" :style="boxImage" />
@@ -18,15 +17,15 @@ export default {
       type: String,
       required: true
     },
-    text: {
-      type: String,
-      required: true
-    },
     image: {
       type: String,
       required: true
     },
     hasBackground: {
+      type: Boolean,
+      default: false
+    },
+    reverseBackground: {
       type: Boolean,
       default: false
     }
@@ -52,28 +51,29 @@ export default {
 
     width: 420px;
 
-    &.has-background{
-      @apply bg-primary;
-    }
-
     & .text {
       @apply text-black pr-5 space-y-5;
 
       width: 80%;
+    }
 
-      &.has-background{
+    &.has-background {
+      @apply bg-primary;
+
+      & .text {
         @apply text-white;
       }
+    }
+  }
 
-      & h2 {
-        @apply text-primary font-bold relative;
+  &.is-reverse {
+    @apply flex-row-reverse;
 
-        font-size: 35px;
-        left: 30%;
+    & .text-box {
+      @apply text-left justify-start;
 
-        &.has-background{
-          @apply text-white;
-        }
+      & .text {
+        @apply pr-0 pl-5;
       }
     }
   }
@@ -118,6 +118,22 @@ export default {
       top: -11%;
       margin-right: 25px;
       margin-left: 25px;
+    }
+
+    &.is-reverse {
+      @apply flex-col-reverse;
+
+      & .text-box {
+        @apply text-current justify-center;
+
+        & .text {
+          @apply pr-0 pl-5;
+        }
+      }
+
+      & .image {
+        top: auto;
+      }
     }
   }
 }
