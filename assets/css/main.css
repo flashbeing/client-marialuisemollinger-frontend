@@ -37,7 +37,9 @@ svg {
   .center {
     @apply w-auto;
 
+/*
     margin-right: 25px;
     margin-left: 25px;
+ */
   }
 }

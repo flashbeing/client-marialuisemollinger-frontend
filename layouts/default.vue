@@ -3,7 +3,6 @@
     <Header />
     <Nuxt class="page" />
     <Footer />
-    <NotificationCenter />
   </div>
 </template>
 
