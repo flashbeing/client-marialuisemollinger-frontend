@@ -24,6 +24,10 @@ svg {
 .center {
   width: 970px;
   margin: 0 auto;
+
+  &.compact {
+    width: 700px;
+  }
 }
 
 .title-desc {
@@ -35,11 +39,6 @@ svg {
 
 @media only screen and (max-width: 980px) {
   .center {
-    @apply w-auto;
-
-/*
-    margin-right: 25px;
-    margin-left: 25px;
- */
+    @apply w-auto mx-5 !important;
   }
 }

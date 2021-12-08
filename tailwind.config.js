@@ -11,10 +11,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#A4BEA8',
-        'primary-hover': '#31caff',
-        secondary: '#386A47',
-        'secondary-hover': '#fAfAfA',
+        primary: '#A9BDAA',
+        'primary-hover': '#BAD0BB',
+        secondary: '#707070',
+        'secondary-hover': '#808080',
         'light-black': '#343434',
         grey: '#707070',
         green: '#31b748',

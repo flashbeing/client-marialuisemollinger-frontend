@@ -1,12 +1,9 @@
-const AVAILABLE_LANGUAGES = ['it']
+const AVAILABLE_LANGUAGES = ['it', 'de']
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Marialuise Möllinger - Frontend',
-    htmlAttrs: {
-      lang: 'it',
-    },
+    title: 'Marialuise Möllinger',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -44,9 +41,9 @@ export default {
   i18n: {
     locales: AVAILABLE_LANGUAGES,
     strategy: 'prefix_except_default',
-    defaultLocale: 'it',
+    defaultLocale: 'de',
     vueI18n: {
-      fallbackLocale: 'it',
+      fallbackLocale: 'de',
       messages: AVAILABLE_LANGUAGES.reduce(
         (obj, key) => ({
           ...obj,

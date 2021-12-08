@@ -1,11 +1,10 @@
 <template>
   <header>
     <div class="center">
-      <nuxt-link :to="localePath('/')" :title="$t('common.homepage')">
+      <nuxt-link :to="localePath('/')">
         <Icon name="logo" class="logo" />
       </nuxt-link>
     </div>
-    <iframe class="video" src="https://www.youtube.com/embed/OhBo1A8atuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
   </header>
 </template>
 
@@ -25,12 +24,5 @@ header {
     height: 120px;
     margin-top: 20px;
   }
-
-  & .video {
-    @apply w-full z-10 top-0 left-0 right-0 absolute;
-
-    height: 720px;
-  }
-
 }
 </style>

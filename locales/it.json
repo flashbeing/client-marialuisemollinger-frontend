@@ -1,26 +1,111 @@
 {
-  "common": {
-    "homepage": "Homepage",
-    "create": "Crea",
-    "genres": "Generi",
-    "creations": "Creazioni",
-    "makers": "Makers"
-  },
   "page": {
-    "homepage": {
-      "firstSection": {
-        "elements": {
-          "first": {
-            "title": "Hallo!",
-            "content": "Ich bin Marialuise – gerne auch einfach Marylu! Ich liebe das Kochen, das Backen und alles, was mit gutem Essen zu tun hat. Ich koche gern für die Familie, Freunde – und wenn Sie möchten, auch für Ihren Anlass\n"
+    "home": {
+      "features": {
+        "hello": {
+          "title": "Ciao!",
+          "desc": "Mi chiamo Marialuise, ma potete chiamarmi semplicemente Marylu! Mi trovo a mio agio tra i fornelli, il forno per me non ha segreti, ho una grande passione per il buon cibo. Come avrete capito, adoro cucinare: per la famiglia, per gli amici e, se lo volete, anche per voi."
+        },
+        "homeCook": {
+          "title": "Cuoco a domicilio",
+          "subtitle": "Voi scegliete cosa mangiare, al resto ci penso io",
+          "desc": "“Cuoco a domicilio”: da tanti anni ormai in Italia esiste questa figura professionale, che potete chiamare a casa vostra, in azienda o in un posto a vostra scelta per cucinare in occasioni particolari. Funziona così: io vengo a vedere la location, assieme scegliamo il menu in base ai gusti e al budget disponibile dopodiché provvedo a tutto. Ma veramente a tutto, da piatti e posate all’eventuale attrezzatura mancante fino alle bevande e ai vini. Con me c’è sempre del personale adeguato alle dimensioni dell’evento e alla fine tutto sarà pulito e sistemato come prima. Insomma, voi dovrete solo pensare a divertirvi assieme ai vostri ospiti."
+        },
+        "privateEvent": {
+          "title": "Private Events",
+          "subtitle": "Per famiglie e gruppi di amici",
+          "desc": "Vorreste festeggiare come si deve il vostro compleanno con gli amici ma non avete voglia di cucinare? C’è una festa familiare in vista ma i parenti sono talmente tanti che state male solo al pensiero di dover cucinare per un’intera tribù? State pensando a una cenetta romantica con la vostra anima gemella, ma senza andare al ristorante né tantomeno passare ore ai fornelli con il rischio che qualcosa vada storto? Chiamatemi: oltre alla mia arte culinaria, potrete contare anche sulla mia discrezione, non vi accorgerete neanche della mia presenza in casa vostra. Se tuttavia aveste voglia di spadellare assieme a me, magari con i vostri bambini, non c’è problema: in cucina c’è posto per tutti."
+        },
+        "businessEvent": {
+          "title": "Business Events",
+          "subtitle": "Con clienti o con il vostro team",
+          "desc": "Feste aziendali, cene di Natale con il personale, un ricevimento adeguato per presentare i nuovi prodotti ai vostri clienti, inaugurazione di un punto vendita… A prescindere dall’evento, è risaputo che il buon cibo fa stare bene e rende più piacevole l’atmosfera. Voi dovete solo dirmi qual è la vostra esigenza, poi io verrò a fare un sopralluogo per capire come e dove cucinare e il gioco è fatto. Ah, se avete bisogno di posate, bicchieri, sedie e decorazioni varie, non c’è problema: ci penso io."
+        },
+        "specs": {
+          "title": "Specialità",
+          "subtitle": "Verdura fresca e pane caldo, le mie passioni",
+          "desc": "Carne o pesce, sapori italiani o asiatici, cottura a bassa temperatura o alla griglia: voi scegliete il menu che volete, io ci metto i migliori ingredienti. Preferibilmente di produzione biologica e legati al concetto di slow food, sicuramente locali e stagionali. A proposito: se ne ho abbastanza, utilizzo sempre erbe e verdure del mio orto. Un’altra passione che mi procura tanta gioia è il pane, che faccio con il lievito madre di farro biologico che coltivo personalmente da anni. Se volete, vi invito a un aperitivo e vi faccio assaggiare il mio pane appena sfornato assieme a creme spalmabili alle erbe aromatiche!"
+        }
+      },
+      "faq": {
+        "title": "FAQ",
+        "subtitle": "Non trovate la risposta che cercate? Per aiutarvi ho condiviso alcune delle domande più frequenti che mi vengono poste.",
+        "faqs": {
+          "intolerance": {
+            "title": "Ci sono anche menu vegetariani, senza glutine o per chi soffre di allergie?",
+            "desc": "Per quanto riguarda piatti vegetariani o privi di determinati ingredienti, basta parlarne e si trova senz’altro una soluzione. Quello che non faccio è la cucina senza glutine, perché non posso garantire gli standard necessari nelle diverse situazioni in cui mi trovo a cucinare."
           },
-          "second": {
-            "title": "CUOCO A DOMICILIO",
-            "subtitle": "FRISCH GEKOCHT DIREKT BEI IHNEN",
-            "content": "„Cuoco a domicilio“ ist in Italien der Begriff für den Kochservice, der direkt vor Ort bei Ihnen zu Hause, im Unternehmen oder an der von Ihnen gewünschten Location erfolgt. Nach dem Lokalaugenschein, der Vereinbarung über Speisen und Budget besorge ich alles Notwendige – von den Zutaten bis zu eventuell fehlender Ausstattung und auf Wunsch auch Getränke und Wein. Je nach Größe des Events bringe ich Helfer mit und am Ende wird wieder saubergemacht. Für eine rundum gelungene Feier und sorglose, glückliche Gastgeber!"
+          "noKitchen": {
+            "title": "Nel posto che dovrebbe ospitare l’evento non c’è una cucina. É possibile organizzarlo comunque?",
+            "desc": "Certamente. L’importante è che ci sia spazio a sufficienza e io mi organizzo con una cucina mobile completa di attrezzatura."
+          },
+          "kitchenSize": {
+            "title": "La mia cucina non è molto grande: che fare?",
+            "desc": "Prima di accettare un incarico, io faccio sempre un sopralluogo per farmi un’idea della situazione. Comunque una soluzione si trova sempre!"
+          },
+          "cost": {
+            "title": "Quanto costa organizzare una cena a domicilio?",
+            "desc": "Chiaramente il prezzo dipende dalla grandezza dell‘evento, dal numero degli invitati e prima di tutto da quello che volete mangiare. Voi mi fornite i dati essenziali, poi io vi faccio un’offerta personalizzata."
+          },
+          "buySpices": {
+            "title": "Devo provvedere io all’acquisto degli ingredienti?",
+            "desc": "A dire il vero preferisco sceglierli personalmente dai miei fornitori di fiducia, questo perché la qualità delle materie prime è fondamentale per preparare piatti deliziosi. Tuttavia in alcune situazioni particolari – ad esempio un cacciatore che vuole cucinare la sua selvaggina – possiamo trovare una soluzione che vada bene per tutti."
+          },
+          "choose": {
+            "title": "Chi decide il menu?",
+            "desc": "Ma voi naturalmente! Io mi limito a consigliarvi quello che, secondo me, si addice meglio alla situazione. Ma l’ultima parola spetta a voi."
+          },
+          "maxPeople": {
+            "title": "Qual è il numero massimo di persone che posso invitare?",
+            "desc": "Allora, in questi anni ho organizzato cene in casa a lume di candela per due persone ma ho anche fatto da mangiare per 400 partecipanti ad un evento culturale. È solo una questione di esigenze, attrezzature e soprattutto pianificazione. Un flying buffet, ad esempio, è possibile anche per 50 e più persone."
+          },
+          "decoration": {
+            "title": "Chi pensa alle decorazioni?",
+            "desc": "Se volete posso farlo io, ispirandomi al tema del vostro evento e possibilmente utilizzando materiali naturali. Ad esempio tralci di vite o prodotti del mio giardino."
+          },
+          "partner": {
+            "title": "È possibile fare in modo che il mio/la mia partner non sappia che non sono io a cucinare?",
+            "desc": "Certamente. Ovviamente in questi casi bisogna organizzare le cose per bene affinché il segreto… rimanga un segreto."
+          },
+          "breakfast": {
+            "title": "Esiste anche la colazione a domicilio?",
+            "desc": "So perfettamente che non c’è niente di più bello di una ricca colazione, con tante prelibatezze dolci e salate, già pronta e servita. E allora come posso dire di no a chi me la chiede?"
+          },
+          "drinks": {
+            "title": "Chi pensa alle bevande e al vino?",
+            "desc": "Potete acquistarli voi direttamente, magari su mio suggerimento in base al cibo. Altrimenti provvedo io, ma sempre dopo aver deciso assieme cosa acquistare."
+          },
+          "cleanup": {
+            "title": "Chi pulisce la cucina alla fine dell‘evento?",
+            "desc": "Vi garantisco che lascerò la vostra cucina esattamente come l’ho trovata. In caso di eventi più grandi, in cui anche altri ambienti – come ad esempio i bagni – dovranno essere puliti, ci organizzeremo di conseguenza."
+          },
+          "catering": {
+            "title": "Alla fine che differenza c’è tra un cuoco a domicilio e il catering?",
+            "desc": "I due servizi hanno alcune cose in comune, in primis il fatto di preparare da mangiare per un numero variabile di persone in posti diversi. La differenza sostanziale è che il cuoco a domicilio propone un menu personalizzato, concordato con il cliente, e che il cibo non viene portato già cotto ma è cucinato al momento."
+          },
+          "otherQuestions": {
+            "title": "Altre domande?",
+            "desc": "Chiamatemi quando volete e risponderò a qualsiasi domanda! Marialuise Möllinger, {email}, cell. {phone}."
           }
         }
+      },
+      "contact": {
+        "title": "SIETE CURIOSI? E ALLORA CHIEDETE.",
+        "subtitle": "Inviatemi domande, richieste di prenotazione e desideri: vi risponderò senz’altro.",
+        "message": "Messaggio",
+        "iAcceptPrivacyPolicy": "Accetto i termini della privacy",
+        "name": "Nome",
+        "surname": "Cognome",
+        "email": "Email",
+        "send": "Invia"
       }
     }
+  },
+  "footer": {
+    "street": "Via Monte 18",
+    "town": "39057 Appiano",
+    "state": "Südtirol - Italia",
+    "sdi": "Codice SDI",
+    "vat": "P. IVA"
   }
 }
