@@ -83,7 +83,7 @@
         v-for="faq in faqs"
         :key="faq.title"
         :title="faq.title"
-        :content="faq.desc"
+        :desc-translation-key="faq.descTranslationKey"
         class="faq"
       ></FaqItem>
     </section>
@@ -232,7 +232,7 @@ export default {
     getFaqItem(id) {
       return {
         title: this.$t('page.home.faq.faqs.' + id + '.title'),
-        desc: this.$t('page.home.faq.faqs.' + id + '.desc'),
+        descTranslationKey: 'page.home.faq.faqs.' + id + '.desc',
       }
     },
 
@@ -374,6 +374,8 @@ section {
   }
 
   section {
+    @apply overflow-hidden;
+
     &.faqs {
       & .faq {
         @apply mx-6;

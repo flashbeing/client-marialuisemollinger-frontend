@@ -10,16 +10,14 @@
               <br />
             </template>
             <template #email>
-              <a
-                href="mailto:info@marvlukocht.it"
-                class="clickable underline"
-                >{{ $t('common.privacyPolicy') }}</a
+              <a href="mailto:info@marvlukocht.it" class="clickable underline"
+                >info@marvlukocht.it</a
               >
             </template>
             <template #phone>
-              <a href="tel:+393405947912" class="clickable underline">{{
-                $t('common.privacyPolicy')
-              }}</a>
+              <a href="tel:+393405947912" class="clickable underline"
+                >+39 340 59 47 912</a
+              >
             </template>
           </i18n>
         </div>

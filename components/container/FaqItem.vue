@@ -6,11 +6,22 @@
       </div>
       <div class="arrow" :class="+isExpanded ? 'up' : 'down'"></div>
     </div>
-    <div
-      v-show="isExpanded"
-      class="desc"
-    >
-      <p>{{content}}</p>
+    <div v-show="isExpanded" class="desc">
+      <i18n :path="descTranslationKey" tag="p">
+        <template #br>
+          <br />
+        </template>
+        <template #email>
+          <a href="mailto:info@marvlukocht.it" class="clickable underline"
+            >info@marvlukocht.it</a
+          >
+        </template>
+        <template #phone>
+          <a href="tel:+393405947912" class="clickable underline"
+            >+39 340 59 47 912</a
+          >
+        </template>
+      </i18n>
     </div>
   </div>
 </template>
@@ -23,7 +34,7 @@ export default {
       type: String,
       required: true,
     },
-    content: {
+    descTranslationKey: {
       type: String,
       required: true,
     },
@@ -46,7 +57,7 @@ export default {
 .faq {
   @apply p-3;
 
-  background-color: #F5F7F5;
+  background-color: #f5f7f5;
   & .title {
     @apply text-lg select-none flex items-center justify-between px-2;
 
@@ -63,7 +74,7 @@ export default {
     & .arrow {
       @apply inline-block transition-transform duration-200;
 
-      border: solid #386A47;
+      border: solid #386a47;
       border-width: 0 3px 3px 0;
       padding: 3px;
 
