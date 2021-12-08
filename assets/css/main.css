@@ -26,7 +26,7 @@ svg {
   margin: 0 auto;
 
   &.compact {
-    width: 700px;
+    width: 850px;
   }
 }
 
@@ -38,7 +38,8 @@ svg {
 }
 
 @media only screen and (max-width: 980px) {
-  .center {
-    @apply w-auto mx-5 !important;
+  .center,
+  .center.compact {
+    @apply w-auto mx-0;
   }
 }

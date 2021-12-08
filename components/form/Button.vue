@@ -12,6 +12,7 @@
       'ico-only': value === '',
       'fill-width': fillWidth,
       'enhanced-contrast': enhancedContrast,
+      fill: aspect === 'fill',
     }"
     @click="clicked"
   >
@@ -54,6 +55,13 @@ export default {
         return ['primary', 'secondary'].includes(value)
       },
     },
+    aspect: {
+      type: String,
+      default: 'default',
+      validator(value) {
+        return ['default', 'fill'].includes(value)
+      },
+    },
     disabled: {
       type: Boolean,
       default: false,
@@ -84,7 +92,7 @@ export default {
 
 <style lang="postcss" scoped>
 .button {
-  @apply relative inline-block rounded-lg px-6 text-base font-semibold select-none;
+  @apply relative inline-block px-6 text-base font-semibold select-none;
 
   min-width: 50px;
   height: 50px;
@@ -100,7 +108,7 @@ export default {
   }
 
   & > .loader-ct {
-    @apply bg-primary rounded-lg;
+    @apply bg-primary;
   }
 
   &.primary {
@@ -187,6 +195,10 @@ export default {
     &:hover {
       background-color: rgba(255, 255, 255, 0.3);
     }
+  }
+
+  &.fill {
+    @apply w-full h-full;
   }
 }
 </style>

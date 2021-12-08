@@ -7,7 +7,7 @@
 module.exports = {
   theme: {
     fontFamily: {
-      sans: ['Hind', 'sans-serif'],
+      sans: ['Montserrat', 'sans-serif'],
     },
     extend: {
       colors: {

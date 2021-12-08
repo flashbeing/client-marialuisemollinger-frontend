@@ -30,15 +30,15 @@
         </div>
         <div class="col">
           <div class="socials">
+            <a href="https://www.instagram.com/marylukocht/" target="_blank"
+              ><div class="social clickable instagram">
+                <Icon name="instagram" /></div
+            ></a>
             <a
               href="https://www.facebook.com/people/Marylu-kocht/100068188207265/"
               target="_blank"
               ><div class="social clickable facebook">
                 <Icon name="facebook" /></div
-            ></a>
-            <a href="https://www.instagram.com/marylukocht/" target="_blank"
-              ><div class="social clickable instagram">
-                <Icon name="instagram" /></div
             ></a>
           </div>
         </div>
@@ -57,21 +57,49 @@ footer {
     & .col {
       @apply text-white text-base flex-1;
 
+      & .logo {
+        width: 150px;
+      }
+
+      & .copy {
+        @apply text-xs mt-4;
+      }
+
       & li {
-        @apply mb-2;
+        @apply mb-2 text-sm;
+      }
+
+      & .socials {
+        @apply flex flex-row flex-row-reverse;
+
+        & .social {
+          @apply mr-3 border border-white rounded-md flex items-center justify-center;
+
+          width: 40px;
+          height: 40px;
+
+          & svg {
+            height: 20px;
+            fill: theme(colors.white);
+          }
+        }
       }
     }
+  }
+}
 
-    & .socials {
-      & .social {
-        @apply inline-block mr-2 border border-white rounded-md flex items-center justify-center;
+@media only screen and (max-width: 980px) {
+  footer {
+    @apply text-center;
 
-        width: 40px;
-        height: 40px;
+    & .cols {
+      @apply flex-col;
 
-        & svg {
-          height: 20px;
-          fill: theme(colors.white);
+      & .col {
+        @apply mb-6;
+
+        & .socials {
+          @apply justify-center;
         }
       }
     }

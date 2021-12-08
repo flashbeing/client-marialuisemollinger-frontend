@@ -1,0 +1,112 @@
+{
+  "page": {
+    "home": {
+      "features": {
+        "hello": {
+          "title": "Hallo!",
+          "desc": "Ich bin Marialuise – gerne auch einfach Marylu! Ich liebe das Kochen, das Backen und alles, was mit gutem Essen zu tun hat. Ich koche gern für die Familie, Freunde – und wenn Sie möchten, auch für Ihren Anlass. "
+        },
+        "homeCook": {
+          "title": "Cuoco a domicilio",
+          "subtitle": "Frisch gekocht direkt bei Ihnen",
+          "desc": "„Cuoco a domicilio“ ist in Italien der Begriff für den Kochservice, der direkt vor Ort bei Ihnen zu Hause, im Unternehmen oder an der von Ihnen gewünschten Location erfolgt. Nach dem Lokalaugenschein, der Vereinbarung über Speisen und Budget besorge ich alles Notwendige – von den Zutaten bis zu eventuell fehlender Ausstattung und auf Wunsch auch Getränke und Wein. Je nach Größe des Events bringe ich Helfer mit und am Ende wird wieder saubergemacht. Für eine rundum gelungene Feier und sorglose, glückliche Gastgeber!"
+        },
+        "privateEvent": {
+          "title": "Private Events",
+          "subtitle": "Für Familie und Freunde",
+          "desc": "Sie möchten Geburtstag feiern und das Fest lieber mit Ihren Freunden genießen als in der Küche zu arbeiten? Es steht eine Familienfeier an und die Verwandtschaft ist so groß, dass Ihnen die Lust vergeht, für alle zu kochen? Oder Sie möchten einfach das romantische Dinner mit Ihrer oder Ihrem Liebsten in den eigenen vier Wänden genießen, ohne stundenlang am Herd zu stehen? Ich übernehme diese Rolle gern – mit dem Menü Ihrer Wahl und stets diskret im Hintergrund.{br}Es sei denn, Sie möchten gemeinsam kochen – zum Beispiel mit den Kindern: Dann leite ich gerne an, damit alle Hände beschäftigt sind."
+        },
+        "businessEvent": {
+          "title": "Business Events",
+          "subtitle": "Für Kunden oder das eigene Team",
+          "desc": "Die Weihnachts- oder Jubiläumsfeier mit der eigenen Belegschaft, ein Empfang für Kunden zur Vorstellung des neuen Produkts, die Eröffnung einer neuen Geschäftsstelle? Egal zu welchem Anlass – ein verwöhnter Gaumen sorgt für Wohlbefinden und hebt die Stimmung! Ich komme gerne zu Ihnen und schau mir an, welche Möglichkeiten ich einrichten kann, um frisch für Sie zu kochen. Und wenn Sie Gedeck, Gläser, Stühle oder Dekoration benötigen? Ich bringe mit, was benötigt wird!"
+        },
+        "specs": {
+          "title": "Spezialitäten",
+          "subtitle": "Brot und Garten, meine Leidenschaft",
+          "desc": "Fisch oder Fleisch, asiatisch oder italienisch angehaucht, Niedertemperatur gegart oder auch vom Grill – das Menü wird ganz nach Ihrem Geschmack und mit besten Zutaten zubereitet. Am liebsten nach der Slow-Food-Idee aus biologischem Anbau, auf jeden Fall aber aus der Region und der Saison entsprechend. Wenn verfügbar, stammen Gemüse und Kräuter auch aus meinem eigenen Garten. Besonders viel Freude bereitet mir mein Hobby, das Brotbacken. Seit Jahren hege und pflege ich meinen selbstgezüchteten lievito madre, die Mutterhefe, mit Biodinkel. Gerne bringe ich einen frisch gebackenen Brotlaib und Kräuteraufstriche als Kostprobe zum Aperitif mit!"
+        }
+      },
+      "faq": {
+        "title": "FAQ",
+        "subtitle": "Können Sie die gesuchte Antwort nicht finden? Ich habe einige meiner am häufigsten gestellten Fragen geteilt, um Ihnen zu helfen.",
+        "faqs": {
+          "intolerance": {
+            "title": "Kochen Sie auch vegetarisch, glutenfrei oder antiallergen? ",
+            "desc": "Ich nehme gerne auf Ihre Bedürfnisse Rücksicht, etwa was vegetarische Gerichte oder das Vermeiden bestimmter Zutaten betrifft. Glutenfrei koche ich hingegen nicht, weil ich die dafür nötigen Standards in den unterschiedlichen Küchensituationen nicht garantieren kann."
+          },
+          "noKitchen": {
+            "title": "Ich habe keine eigene Küche. Können Sie trotzdem für mich kochen?",
+            "desc": "Ja, das ist möglich. Wenn ich einen passenden Platz zur Verfügung habe, richte ich mich mit einer mobilen Küchenausrüstung ein"
+          },
+          "kitchenSize": {
+            "title": "Ich habe keine eigene Küche. Können Sie trotzdem für mich kochen?",
+            "desc": "Ja, das ist möglich. Wenn ich einen passenden Platz zur Verfügung habe, richte ich mich mit einer mobilen Küchenausrüstung ein."
+          },
+          "cost": {
+            "title": "Wieviel kostet es mich Sie zu buchen?",
+            "desc": "Der Preis hängt von der Größe Ihres Events, von der Zahl Ihrer Gäste und vor allem auch von den Speisen ab, die Sie anbieten wollen. Gerne unterbreite ich Ihnen ein maßgeschneidertes Angebot."
+          },
+          "buySpices": {
+            "title": "Muss ich die Zutaten für die Speisen selbst einkaufen?",
+            "desc": "Die Zutaten besorge ich lieber selbst bei den Lieferanten meines Vertrauens: Denn die Qualität der Zutaten ist entscheidend für das Gelingen köstlicher Gerichte. In besonderen Situationen – etwa wenn Sie Jäger sind und selbst erlegtes Wild auftischen möchten – können wir gern über Sonderlösungen reden."
+          },
+          "choose": {
+            "title": "Wer entscheidet was gekocht wird?",
+            "desc": "Sie entscheiden! Ich stehe Ihnen mit Rat und Tat zur Seite, um eine passende Auswahl zu treffen."
+          },
+          "maxPeople": {
+            "title": "Für wie viele Personen kochen Sie maximal?",
+            "desc": "Ich habe für das private Candle Light Dinner mit 2 Personen ebenso gekocht wie für 400 Besucher einer Kulturveranstaltung. Alles eine Frage der Ansprüche, der Ausstattung und vor allem der Planung. Ein Flying Buffet ist beispielsweise auch für 50 und mehr Personen möglich."
+          },
+          "decoration": {
+            "title": "Dekorieren Sie auch?",
+            "desc": "Wenn Sie das wünschen, gerne passend zu Ihrem Thema und am liebsten mit Naturmaterialien, zum Beispiel von Rebstöcken oder aus meinem Garten."
+          },
+          "partner": {
+            "title": "Muss mein Partner/meine Partnerin erfahren, dass ich nicht selbst gekocht habe?",
+            "desc": "Nein, das muss er/sie nicht. Allerdings muss so ein Ereignis schlau geplant und vorbereitet sein, damit Ihr Geheimnis gewahrt bleibt."
+          },
+          "breakfast": {
+            "title": "Bereiten Sie auch Frühstück vor?",
+            "desc": "Was gibt es Schöneres als ein gemütliches Frühstück mit bunter, reichhaltiger Auswahl an Speisen, süß und/oder auch nicht? Wie könnte ich da Nein sagen?"
+          },
+          "drinks": {
+            "title": "Wer besorgt Getränke und Wein?",
+            "desc": "Ich berate Sie gerne bei der Auswahl, wenn Sie den Wein selbst kaufen möchten. Andernfalls besorge ich, was wir vorab gemeinsam entschieden haben."
+          },
+          "cleanup": {
+            "title": "Wer räumt die Küche auf?",
+            "desc": "Ich werde Ihre Küche so hinterlassen, wie ich sie vorgefunden habe. Bei größeren Events werden wir daran denken, dass auch andere Bereiche – etwa Toiletten – zu reinigen sind und uns dementsprechend organisieren."
+          },
+          "catering": {
+            "title": "Was ist eigentlich der Unterschied zwischen einem Cuoco a domicilio und einem Catering?",
+            "desc": "Es bestehen viele Ähnlichkeiten – in erster Linie jene, dass an unterschiedlichen Locations Menschen verköstigt werden. Der größte Unterschied besteht wohl darin, dass der Cuoco a domicilio die Menüauswahl sehr individuell mit dem Auftraggeber abstimmt und die Speisen nicht mitbringt, sondern frisch vor Ort zubereitet"
+          },
+          "otherQuestions": {
+            "title": "Weitere Fragen?",
+            "desc": "Kontaktieren Sie mich gern persönlich! Marialuise Möllinger, {email}, Handy: {phone}"
+          }
+        }
+      },
+      "contact": {
+        "title": "NEUGIERIG? JETZT ANFRAGEN.",
+        "subtitle": "Schicken Sie mir Ihre Anfrage, Buchung und Wünsche. Ich melde mich bei Ihnen.",
+        "message": "Nachricht",
+        "iAcceptPrivacyPolicy": "Ja, ich akzeptiere die Datenschutzbestimmungen",
+        "name": "Name",
+        "surname": "Nachname",
+        "email": "E-Mail",
+        "send": "Senden",
+        "sentThanks": "Gesendet. Danke!"
+      }
+    }
+  },
+  "footer": {
+    "street": "Bergweg 18",
+    "town": "39057 Eppan",
+    "state": "Südtirol - Italien",
+    "sdi": "SDI Kodex",
+    "vat": "MwSt.-Nr."
+  }
+}

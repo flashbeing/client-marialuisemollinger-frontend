@@ -97,7 +97,8 @@
         "name": "Nome",
         "surname": "Cognome",
         "email": "Email",
-        "send": "Invia"
+        "send": "Invia",
+        "sentThanks": "Inviato. Grazie!"
       }
     }
   },

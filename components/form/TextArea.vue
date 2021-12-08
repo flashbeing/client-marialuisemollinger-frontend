@@ -89,11 +89,10 @@ export default {
 <style lang="postcss" scoped>
 .textarea {
   & textarea {
-    @apply text-base py-3 px-5 bg-input resize-none font-semibold align-top text-black;
+    @apply text-base py-3 px-5 bg-white resize-none font-medium align-top text-black border border-primary;
 
     width: 300px;
     min-height: 150px;
-    border-radius: 10px;
 
     &:focus {
       @apply outline-none bg-input-focus;
