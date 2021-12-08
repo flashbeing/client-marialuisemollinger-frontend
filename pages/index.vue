@@ -366,7 +366,7 @@ section {
 
 @media only screen and (max-width: 980px) {
   .cover {
-    height: 80vh;
+    height: 170vw;
 
     & .desktop-only {
       @apply hidden;
