@@ -18,6 +18,7 @@ module.exports = {
         'light-black': '#343434',
         grey: '#707070',
         green: '#31b748',
+        'light-green': '#f5f7f5',
         input: '#CCCCCC',
         'input-focus': '#F0F0F0',
         'light-red': '#fff1f1',

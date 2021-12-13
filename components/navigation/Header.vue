@@ -31,6 +31,10 @@ export default {}
 header {
   @apply absolute font-semibold select-none top-0 left-0 right-0;
 
+  & .center {
+    @apply w-auto px-14;
+  }
+
   & .logo {
     @apply relative z-20;
 
@@ -46,6 +50,10 @@ header {
 @media only screen and (max-width: 980px) {
   header {
     @apply ml-6;
+
+    & .center {
+      @apply w-auto px-0;
+    }
 
     & .logo {
       @apply mt-6;

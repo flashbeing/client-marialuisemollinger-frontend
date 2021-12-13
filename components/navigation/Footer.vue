@@ -11,7 +11,7 @@
             <li>Marialuise Möllinger</li>
             <li><a href="tel:+393405947912">+39 340 594 7912</a></li>
             <li>
-              <a href="mailto:info@marvlukocht.it">info@marvlukocht.it</a>
+              <a href="mailto:info@marylukocht.it">info@marylukocht.it</a>
             </li>
           </ul>
         </div>

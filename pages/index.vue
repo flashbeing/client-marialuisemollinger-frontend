@@ -5,9 +5,9 @@
         <video
           ref="desktopVideo"
           :class="{ 'show-video': desktopVideoVisible }"
-          :controls="desktopVideoVisible"
           :src="desktopVideoUrl + '#t=0.001'"
           preload="metadata"
+          @click="pauseVideoPlayback('desktopVideo')"
         ></video>
         <div
           v-if="!desktopVideoVisible"
@@ -23,9 +23,9 @@
         <video
           ref="mobileVideo"
           :class="{ 'show-video': mobileVideoVisible }"
-          :controls="mobileVideoVisible"
           :src="mobileVideoUrl + '#t=0.001'"
           preload="metadata"
+          @click="pauseVideoPlayback('mobileVideo')"
         ></video>
         <div
           v-if="!mobileVideoVisible"
@@ -96,6 +96,7 @@
         <SectionTitle
           :title="$t('page.home.contact.title')"
           :subtitle="$t('page.home.contact.subtitle')"
+          :expanded-title="true"
         />
       </div>
       <form>
@@ -241,6 +242,11 @@ export default {
       this.$refs[videoType].play()
     },
 
+    pauseVideoPlayback(videoType) {
+      this[videoType + 'Visible'] = false
+      this.$refs[videoType].pause()
+    },
+
     sendMessage() {
       this.sendingMessage = true
       this.$axios
@@ -293,7 +299,7 @@ h2 {
   height: 56vw;
 
   & video {
-    @apply w-full h-full;
+    @apply w-full h-full cursor-pointer;
   }
 
   & .play-bt {

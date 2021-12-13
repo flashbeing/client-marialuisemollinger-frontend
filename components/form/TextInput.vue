@@ -122,7 +122,7 @@ export default {
     padding-bottom: 11px;
 
     &:focus {
-      @apply outline-none bg-input-focus;
+      @apply outline-none bg-light-green;
     }
 
     &[type='search'] {

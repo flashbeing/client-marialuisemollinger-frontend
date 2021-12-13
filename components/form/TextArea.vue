@@ -95,7 +95,7 @@ export default {
     min-height: 150px;
 
     &:focus {
-      @apply outline-none bg-input-focus;
+      @apply outline-none bg-light-green;
     }
   }
 

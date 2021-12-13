@@ -69,7 +69,7 @@ export default {
 
 <style lang="postcss" scoped>
 .box {
-  @apply flex flex-row items-center justify-center py-16;
+  @apply flex flex-row justify-center py-16;
 
   & .text {
     @apply flex-1;
@@ -78,7 +78,7 @@ export default {
       @apply pt-8 pb-12 px-3 text-right;
 
       & .title {
-        @apply text-4xl uppercase text-primary font-bold mb-6;
+        @apply text-5xl uppercase text-primary font-bold mb-6;
       }
 
       & .subtitle {
@@ -102,6 +102,8 @@ export default {
   }
 
   &.filled {
+    @apply items-center;
+
     & .text {
       & .ct {
         @apply bg-primary;
@@ -139,16 +141,28 @@ export default {
         }
       }
     }
+
+    &.filled {
+      & .text {
+        & .ct {
+          @apply pl-24;
+        }
+      }
+    }
   }
 }
 
 @media only screen and (max-width: 980px) {
   .box {
-    @apply flex-col-reverse;
+    @apply flex-col-reverse pb-0;
 
     & .text {
       & .ct {
         @apply text-left px-6;
+
+        & .title {
+          @apply text-4xl;
+        }
       }
     }
 
@@ -157,7 +171,7 @@ export default {
     }
 
     &.first {
-      @apply flex-col;
+      @apply flex-col pb-14;
 
       & .image {
         & .img {

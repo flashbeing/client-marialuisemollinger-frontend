@@ -55,11 +55,10 @@ export default {
 
 <style lang="postcss" scoped>
 .faq {
-  @apply p-3;
+  @apply py-3 px-5 bg-light-green;
 
-  background-color: #f5f7f5;
   & .title {
-    @apply text-lg select-none flex items-center justify-between px-2;
+    @apply text-lg select-none flex items-center justify-between;
 
     & .text {
       @apply select-none flex-grow;
@@ -67,7 +66,7 @@ export default {
       max-width: calc(100% - 20px);
 
       & h2 {
-        @apply font-medium text-base;
+        @apply font-semibold text-base;
       }
     }
 
@@ -89,10 +88,10 @@ export default {
   }
 
   & .desc {
-    @apply pt-1 pl-2;
+    @apply pt-3;
 
     & p {
-      @apply whitespace-pre-line m-auto pt-6;
+      @apply whitespace-pre-line m-auto mx-0;
 
       max-width: 90%;
     }

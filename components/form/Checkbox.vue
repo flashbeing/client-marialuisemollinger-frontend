@@ -140,7 +140,7 @@ export default {
   }
 
   & > label {
-    @apply inline-block align-top text-black text-base font-medium leading-tight pt-1;
+    @apply inline-block align-top text-black text-base font-medium leading-tight pt-1 text-secondary;
 
     max-width: calc(100% - 40px);
   }
