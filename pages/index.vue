@@ -87,10 +87,10 @@
         class="faq"
       ></FaqItem>
     </section>
-    <section class="instagram center compact">
+    <!--<section class="instagram center compact">
       <h2>Instagram</h2>
       <div class="elfsight-app-559f950b-6747-4c7c-803a-1086ceb3acd7"></div>
-    </section>
+    </section>-->
     <section class="contact center compact">
       <div>
         <SectionTitle
@@ -340,6 +340,8 @@ section {
   }
 
   &.faqs {
+    @apply mb-32; /* NOTE: remove this margin once the Instagram section is again enabled */
+
     & .faq {
       @apply mb-6;
     }
