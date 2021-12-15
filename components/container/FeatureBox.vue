@@ -123,7 +123,7 @@ export default {
     & .text {
       & .ct {
         & .title {
-          @apply relative -mr-24;
+          @apply relative -mr-36;
         }
       }
     }
@@ -136,7 +136,7 @@ export default {
           @apply text-left;
 
           & .title {
-            @apply relative -ml-24 mr-0;
+            @apply relative -ml-36 mr-0;
           }
         }
       }

@@ -115,7 +115,7 @@ export default {
 <style lang="postcss" scoped>
 .text-input {
   & input {
-    @apply text-base px-5 bg-white resize-none text-black font-medium border border-primary rounded-none;
+    @apply text-base px-5 bg-white resize-none font-light text-secondary border border-primary rounded-none;
 
     width: 300px;
     padding-top: 11px;

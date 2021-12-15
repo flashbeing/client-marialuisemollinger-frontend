@@ -12,8 +12,8 @@
           <br />
         </template>
         <template #email>
-          <a href="mailto:info@marvlukocht.it" class="clickable underline"
-            >info@marvlukocht.it</a
+          <a href="mailto:info@marylukocht.it" class="clickable underline"
+            >info@marylukocht.it</a
           >
         </template>
         <template #phone>
@@ -66,7 +66,7 @@ export default {
       max-width: calc(100% - 20px);
 
       & h2 {
-        @apply font-semibold text-base;
+        @apply font-medium text-base;
       }
     }
 
@@ -91,7 +91,7 @@ export default {
     @apply pt-3;
 
     & p {
-      @apply whitespace-pre-line m-auto mx-0;
+      @apply whitespace-pre-line m-auto mx-0 font-light;
 
       max-width: 90%;
     }

@@ -89,7 +89,7 @@ export default {
 <style lang="postcss" scoped>
 .textarea {
   & textarea {
-    @apply text-base py-3 px-5 bg-white resize-none font-medium align-top text-black border border-primary rounded-none;
+    @apply text-base py-3 px-5 bg-white resize-none align-top border border-primary rounded-none font-light text-secondary;
 
     width: 300px;
     min-height: 150px;

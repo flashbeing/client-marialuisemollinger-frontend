@@ -104,7 +104,7 @@ export default {
 }
 
 .checkbox {
-  @apply relative inline-block text-black select-none;
+  @apply relative text-black select-none;
 
   & > .input {
     @apply relative inline-block mr-2 text-center;
@@ -140,7 +140,7 @@ export default {
   }
 
   & > label {
-    @apply inline-block align-top text-black text-base font-medium leading-tight pt-1 text-secondary;
+    @apply inline-block align-top text-black leading-tight pt-1 font-light text-secondary;
 
     max-width: calc(100% - 40px);
   }
