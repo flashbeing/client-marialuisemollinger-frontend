@@ -66,7 +66,7 @@ export default {
       max-width: calc(100% - 20px);
 
       & h2 {
-        @apply font-medium text-base;
+        @apply font-medium text-base text-secondary;
       }
     }
 
@@ -91,7 +91,7 @@ export default {
     @apply pt-3;
 
     & p {
-      @apply whitespace-pre-line m-auto mx-0 font-light;
+      @apply whitespace-pre-line m-auto mx-0 font-light text-secondary;
 
       max-width: 90%;
     }

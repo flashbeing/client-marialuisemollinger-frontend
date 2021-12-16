@@ -49,7 +49,7 @@
 
 <style lang="postcss" scoped>
 footer {
-  @apply bg-primary py-10;
+  @apply bg-primary py-10 font-light;
 
   & .cols {
     @apply flex flex-row;

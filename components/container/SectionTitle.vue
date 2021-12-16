@@ -43,7 +43,7 @@ export default {
 
     &.subtitle {
       & p {
-        @apply mt-6 -ml-48 py-10 px-24 text-base text-white;
+        @apply mt-6 -ml-48 py-10 px-24 text-base text-white font-light;
 
         background: #44694a;
       }

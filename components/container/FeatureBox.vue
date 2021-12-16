@@ -146,6 +146,10 @@ export default {
       & .text {
         & .ct {
           @apply pl-24;
+
+          & .title {
+            @apply -mr-24;
+          }
         }
       }
     }
