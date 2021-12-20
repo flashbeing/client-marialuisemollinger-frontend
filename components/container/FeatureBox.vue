@@ -75,7 +75,7 @@ export default {
     @apply flex-1;
 
     & .ct {
-      @apply pt-8 pb-12 px-3 text-right;
+      @apply pt-8 px-3 text-right;
 
       & .title {
         @apply text-5xl uppercase text-primary font-bold mb-6;
