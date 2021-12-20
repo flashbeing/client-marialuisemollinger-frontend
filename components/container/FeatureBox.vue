@@ -106,7 +106,7 @@ export default {
 
     & .text {
       & .ct {
-        @apply bg-primary;
+        @apply bg-primary pb-12;
 
         & .title,
         & .subtitle,
