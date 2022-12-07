@@ -74,14 +74,6 @@ export default {
     proxy: true,
   },
 
-  proxy: {
-    '/em/': {
-      target: 'https://marialuisemollinger.codeworks.build/em/',
-      pathRewrite: { '^/em/': '' },
-      changeOrigin: true,
-    },
-  },
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extend: (config) => {

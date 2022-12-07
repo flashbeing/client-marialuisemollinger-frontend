@@ -250,10 +250,14 @@ export default {
     sendMessage() {
       this.sendingMessage = true
       this.$axios
-        .post('/em/', {
-          t: EMAIL_TOKEN,
-          d: this.contactForm,
-        })
+        .post(
+          'https://marialuisemollinger.codeworks.build/em/',
+          {
+            t: EMAIL_TOKEN,
+            d: this.contactForm,
+          },
+          { withCredentials: false }
+        )
         .then(
           (response) => {
             if (response.data && response.data.status === 1) {
